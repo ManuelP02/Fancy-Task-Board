@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .swim-lanes {
+    min-height: 60vh;
+  }
+  
+  .task-card {
+    margin: 0 auto;
+  }
+  
+  .task-card:hover {
+    cursor: grab;
+  }
+  
+  .bg-primary {
+    background-color: #007bff; 
+    color: white;
+}
+
+.bg-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.bg-warning {
+    background-color: #ffc107; 
+    color: black;
+}
+
+.bg-danger {
+    background-color: #dc3545; 
+    color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.task-card {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
